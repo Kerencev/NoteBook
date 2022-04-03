@@ -19,6 +19,8 @@ public class ArrNotebooks {
 
     public static void main(String[] args) {
 
+        //Задание с ноутбуками
+
         createNotebooks(10_000);
 
         long startTime = System.currentTimeMillis();
@@ -32,5 +34,7 @@ public class ArrNotebooks {
         }
 
         System.out.println(endTime - startTime);
+
+        //Задание с ноутбуками
     }
 }
